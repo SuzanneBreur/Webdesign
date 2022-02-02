@@ -3,13 +3,49 @@ body {
 }
 
 h1 {
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
 }
 
 h2 {
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: underline;
+}
+
+p,
+li {
+  float: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  border: 2px solid gray;
+  margin: 20px 50px;
+  padding: 30px;
+}
+/*---Colors---*/
+.colors div {
+  display: inline-block;
+  position: relative;
+  margin: 20px auto;
+  width: 30%;
+  height: 150px;
+  text-align: center;
+  padding: 30px;
 }
 
 .taupe {
   background-color: #7A5C61;
+  color: #fff;
 }
 
 .pink {
@@ -18,12 +54,49 @@ h2 {
 
 .darkgreen {
   background-color: #0B2027;
+  color: #fff;
 }
 
 .teal {
   background-color: #40798C;
+  color: #fff;
 }
 
 .lightgreen {
   background-color: #70A9A1;
+}
+
+/*---Fonts---*/
+.AbrilFatface h3,
+.AbrilFatface p {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 1px;
+}
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.heading h3 {
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
+}
+
+.subheading h3 {
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
 }
